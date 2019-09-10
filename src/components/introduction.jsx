@@ -7,7 +7,7 @@ export default class Introduction extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/stock01.jpeg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -31,6 +31,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>Design and Development</h1>
+                          <h2>This site was created with React!</h2>
                           <p><a className="btn btn-primary btn-learn" href="https://github.com/Atomize101" target="_blank" rel="noopener noreferrer">View Projects</a></p>
                         </div>
                       </div>
